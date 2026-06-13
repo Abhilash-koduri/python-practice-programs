@@ -1,0 +1,30 @@
+#variables
+a= "Abhilash"        #a store str name Abhilash
+b= "1st program"     #b store str name 1st program
+print(a,"python",b)
+c=10                 #c store int value 10
+d=20                 #d store int value 20
+e= c+d                 #e store the sum of c and d
+print(e)
+
+#saving file name as practic.py
+
+# data types
+f=10              #10 is an interger
+print(type(f))
+g= 10.0          #10.0 is an float
+print(type(g))
+h= "Abhilsh"      #Abhilash is an string
+print(type(h))
+i =10<20             #10<20 is an true or false question,is an boolean
+print(type(i))
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
+print(type(i))
