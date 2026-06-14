@@ -1,0 +1,73 @@
+#input functions
+# example 1
+name = input("Enter your name :")
+print("your name is ",name)
+
+# input taking integer
+#example 2
+i = 10
+num = int(input("Enter your number :"))
+print("your number is ",num)
+
+#output functions
+#example 1
+a ="Abhi"
+print("my name is",a)
+
+#example 2
+print("my name is Abhilash am from karimnagar")
+
+# operators 
+# Arithmetic Operators
+a =10
+b =20
+
+#addition
+print("addition of a and b is :",a+b)
+
+#substraction
+print("substraction of a and b is :",a-b)
+
+#multiplication
+print("multiplication of a and b is :",a*b)
+
+#divison
+print("division of a and b is :",a/b)
+
+#modulus
+print("modulus of a and b is :",a%b)  
+
+#power
+print("power of a and b is",a**b)
+
+# comparison operators
+#equal to
+print("a is equal to b :",a==b)
+
+#not equal to
+print("a is not equal to b :",a!=b)
+
+#greater than
+print("a is greater than b :",a>b)
+
+#less than
+print("a is less than b :",a<b)
+
+#greater than or equal to
+print("a is greater than or equal to b :",a>=b)
+
+#less than or equal to
+print("a is less than or equal to b :",a<=b)
+
+#logical operators
+x = True
+y = False
+#logical and
+print("x and y is :",x and y)
+#logical or
+print("x or y is :",x or y)
+#logical not
+print("not x is :",not x)
+
+
+
