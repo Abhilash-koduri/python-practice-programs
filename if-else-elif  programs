@@ -1,0 +1,99 @@
+#class notes program
+
+w = input()
+if w == "sunny":
+    print("cricket")
+    print("good")
+elif w == "snow":   
+    print("its winnter")   
+else:
+    print("play with robot")    
+print("code ended here!!!!")    
+
+#practice program
+
+#example 1
+num = int(input("Enter number: "))
+
+if num > 0:
+    print(" positive")
+elif num < 0:
+    print("negative")    
+else :
+    print("its zero")    
+    
+#example 2
+num1= int(input("Enter any number :"))
+if num1%3==0 and num1%5==0:
+     print("it is divisible by 3 and 5")     
+else:
+    print("it is not divisible by 3 and 5")
+    
+#example 3
+num2 = int(input("Enter any number:"))
+
+if num%2==0:
+     print("it is even number")  
+else:
+    print("it is odd number")    
+    
+#example 4
+num3 = int(input("Enter your age:"))
+if num3>=18:
+    print("your are eligible for vote") 
+else:
+    print("your not eligible for vote")
+    
+#example 5
+a =10
+b=20
+if a>b:
+    print("a is greater then b")
+else:
+    print("b is greater then a")   
+    
+    
+#example 6
+a1 =10
+b1 =20
+c1 =30
+if a1>b1 and a1>c1 :
+    print("a1 is greater then  b1 and c1")
+elif b1>a1 and  b1>c1:
+    print("b1 is greater then a1 and c1")
+else:
+    print("c1 is greater then a1 and b1")   
+
+#example 7
+num4 = int(input("Enter any number :"))
+if num4%5==0:
+    print("it is divisible by 5")
+else:
+    print("it is not divisible by 5")
+
+#example 8
+marks = int(input("Enter your marks:"))
+if marks>90 :
+    print("A grade")
+elif marks>80 and marks <=90:
+    print("B grade")
+elif marks>70 and marks <=80:
+    print("C grade")
+
+#example 9
+username =input("Enter your username:")
+password = input("Enter your password:")
+if username == "ABHILASH" and password =="12345":
+    print("login successful")
+else:
+    print("invalid username or password")
+#example 10
+num = int(input("Enter a number: "))
+
+if 100 <= num <= 999:
+    print("3-digit number")
+else:
+    print("Not a 3-digit number")
+        
+      
+     
