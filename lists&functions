@@ -1,67 +1,99 @@
-#while loop
+#list
+
 #example 1
-i = 1
+def can_vote(age):
+    if age >= 18:
+        return "Eligible"
+    else:
+        return "Not Eligible"
 
-while i <= 10:
-    print(i)
-    i += 1
-    
+print(can_vote(20))
 #example 2
-i = 10
+def check(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
 
-while i >= 1:
-    print(i)
-    i -= 1
-    
+print(check(7))
+
 #example 3
-n = int(input("Enter N: "))
-i = 1
-total = 0
+def square(num):
+    return num * num
+num = int(input("Enter a number: "))
 
-while i <= n:
-    total += i
-    i += 1
+print(square(5))
+
+#example 4
+def add(a, b):
+    return a + b
+a=input()
+b=input()
+print(add(10, 20))
+
+#example 5
+num1=int(input("Enter a number: "))
+def check(num):
+    if num >= 0:
+        return "Positive"
+    else:
+        return "Negative"
+
+print(check(num1))
+
+
+
+#list
+#example 1
+def list_sum(lst):
+    return sum(lst)
+
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+n3 = int(input("Enter third number: "))
+n4 = int(input("Enter fourth number: "))
+
+numbers = [n1, n2, n3, n4]
+
+print("List =", numbers)
+print("Sum =", list_sum(numbers))
+
+#example 2
+numbers = [10, -5, 20, -8, 15]
+
+positive = 0
+negative = 0
+
+for num in numbers:
+    if num > 0:
+        positive += 1
+    elif num < 0:
+        negative += 1
+
+print("Positive =", positive)
+print("Negative =", negative)
+
+#example 3
+n = int(input("How many numbers: "))
+
+numbers = []
+
+for i in range(n):
+    num = int(input("Enter number: "))
+    numbers = numbers + [num]
+
+total = sum(numbers)
 
 print("Sum =", total)
 
 #example 4
-num = int(input("Enter number: "))
-
-while num > 0:
-    digit = num % 10
-    print(digit, end="")
-    num //= 10
-    
-#example 5
-password = ""
-
-while password != "password123":
-    password = input("Enter password: ")
-
-print("Access Granted")
-
-
-
-#forloop
-#example 1
-for i in range(1, 11):
-    print(i)
-
-#example2
-for i in range (2,21,2):
-    print(i)
-
-#example 3
-n = int (input("Enter a nimber :"))
-
-for i in range(1,n+1):
-    total +=i
-    print("sum =",total)
-    
-#example 4
-word  =input("Enter a word :")
-count = 0
-for ch in word:
-    if ch.lower() in "aeiou":
-        count += 1
-        print("vowels =",count)
+N = int(input("How many numbers: "))
+number= []
+for i in range(n):
+    num=int(input("Enter number: "))
+    number= number +[num]
+    count=0
+    for num in number:
+        if num%2==0:
+            count+1
+print("number of even numbers =",count)
